@@ -34,17 +34,17 @@ Orchestra5 = input("I hope to be part of an Orchestra.")
 Drama5 = input("I hope to be in Drama Club.")
 Art5 = input("I hope to express myself through art even more in Art Club.")
 
-Com5 = input("I enjoy working with computers.")
-Bball5 = input("I enjoy working in a team.")
-Orchestra5 = input("I enjoy music.")
-Drama5 = input("I enjoy acting.")
-Art5 = input("I enjoy using colors.")
+Com6 = input("I enjoy working with computers.")
+Bball6 = input("I enjoy working in a team.")
+Orchestra6 = input("I enjoy music.")
+Drama6 = input("I enjoy acting.")
+Art6 = input("I enjoy using colors.")
 
-Com_final = int(Com1) + int(Com2) + int(Com3) + int(Com4) + int(Com5)
-Bball_final = int(Bball1) + int(Bball2) + int(Bball3) + int(Bball4) + int(Bball5)
-Orchestra_final = int(Orchestra1) + int(Orchestra2) + int(Orchestra3) + int(Orchestra4) + int(Orchestra5)
-Drama_final = int(Drama1)+ int(Drama2)+ int(Drama3)+ int(Drama4)+ int(Drama5)
-Art_final = int(Art1)+ int(Art2)+ int(Art3)+ int(Art4)+ int(Art5)
+Com_final = int(Com1) + int(Com2) + int(Com3) + int(Com4) + int(Com5) + int(Com6)
+Bball_final = int(Bball1) + int(Bball2) + int(Bball3) + int(Bball4) + int(Bball5) + int(Bball6)
+Orchestra_final = int(Orchestra1) + int(Orchestra2) + int(Orchestra3) + int(Orchestra4) + int(Orchestra5) + int(Orchestra6)
+Drama_final = int(Drama1)+ int(Drama2)+ int(Drama3)+ int(Drama4)+ int(Drama5) + int(Drama6)
+Art_final = int(Art1)+ int(Art2)+ int(Art3)+ int(Art4)+ int(Art5) + int(Art6)
 
 print()
 
@@ -58,4 +58,3 @@ if Drama_final > Bball_final and Drama_final > Orchestra_final and Drama_final >
   print("Based on your answers you have chosen, it's a high chance you are suitable for Drama Society!")
 if Art_final > Bball_final and Art_final > Orchestra_final and Art_final > Com_final and Art_final > Drama_final:
   print("Based on your answers you have chosen, it's a high chance you are suitable for Art Club!")
-hi
